@@ -28,8 +28,8 @@ nav{
 
 .main{
     width: 100%;
-    height: calc(100%-60px);
-    background:  url(../img/boy.jpg) 90% 100%/auto 85% no-repeat, url(../img/bg.jpg) right/cover no-repeat;
+    height: calc(100% - 60px);
+    background:  url(../img/boy.png) 90% 100%/auto 85% no-repeat, url(../img/bg.jpg) right/cover no-repeat;
 }
 .title_container{
     float: left;
@@ -59,14 +59,200 @@ nav{
     margin-top: 58px;
     margin: 50px 28px 0px 14px;
 }
+.Photo1{
+   padding-left: 130px;
+   
+}
+.AboutMe{
+    margin-left: 595px;
+    height: calc(720px - 107px);
+    padding-top: 100px;
+}
 .NameOfPage{
     font-weight: bolder;
     text-align: center;
     color: #263244;
     font-size: 30px;
     text-transform: uppercase;
+    padding-top: 107px;
 }
-.Photo1{
-    border: 1px solid #fff;
-    border-radius: 50%;
+#AboutMe_Text1{
+    padding-top: 30px
+}
+#AboutMe_Text2{
+    padding-top: 42px;
+}
+.AboutMe input{
+    height: 35px;
+    border: 2px solid #6d7682;
+    background: none;
+    border-radius: 5px;
+    color: #6d7682;
+    font-size: 13px;
+    padding: 0px 16px;
+    margin-top: 58px;
+    margin-left: 170px;
+}
+.WhatICan{
+    height: 523px;
+    background: url(../img/bg2.png) right/cover no-repeat;    
+}
+.WhatICan li{
+    padding: 151px 0px 93px 5%;
+    float: left;
+    line-height: 23px;
+    margin-right:40px;
+    font-size: 16px;
+    text-align: center;
+    
+}
+.WhatICan li img{
+    padding-bottom: 42px;
+}
+.WhatICan h4{
+    color: orange;
+    padding-bottom: 25px;
+    font-weight: bold;
+    
+}
+.Cases{
+    height: 100%;
+}
+.ContentOfCases1{
+    text-align: center;
+    padding-top: 72px;
+    
+}
+.ContentOfCases1 div{
+    padding-bottom: 42px;
+}
+
+.ContentOfCases2{
+    padding-left: 25%
+}
+.ContentOfCases2 h4{
+    font-weight: bold;
+    font-size: 19px;
+    line-height: 20px;
+}
+.Cases li{
+    float: left;
+    margin-right: 90px;
+}
+.Cases input{
+    height: 45px;
+    border: 2px solid #62aca6;
+    border-radius: 3%;
+    padding: 18px 43px;
+    background-color: #62aca6;
+    color: #fff;
+    text-transform: bold;
+    font-size: 15px;
+    margin-top: 26px;
+    
+}
+.CostCalculation{
+    padding-left: 25%;
+    height: 100%;
+    margin-top: 60px;
+    font-weight: bolder;
+    font-size: 21px;
+    line-height: 40px;
+    
+}
+.CostCalculation_Choose{
+    width: 895px;
+    height: 60px;
+    color: #737373;
+    margin-bottom: 50px;
+    margin-top: 25px;
+    background-color: #eeeeee;
+    border: 2px solid #fff;
+    border-radius: 2%;
+    font-weight: bolder;
+}
+.Statistic{
+    background: url(../img/bg3.png) right/cover no-repeat;
+    height: 503px;
+}
+.Statistic img{
+    padding-bottom: 30px;
+}
+.Statistic li{
+    padding-left: 12%;
+    padding-top: 131px;
+    float: left;
+    margin-right:40px;
+    font-size: 16px;
+    text-align: center;
+    line-height: 33px;
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: bolder;
+    color: #323e4f;
+}
+.Statistic p{
+    font-size: 30px;
+}
+.Feedback{
+    height: calc(596px - 107px);
+    text-align: center;
+    padding-top: 104px;
+}
+.Feedback p{
+    padding-top: 40px;
+}
+.Feedback img{
+    padding-bottom: 41px;
+}
+.Contacts{
+    background: url(../img/bg4.png) right/cover no-repeat;
+    height: 811px;
+    text-align: center;
+}
+.Contacts div{
+    color: white;
+}
+.Contacts li{
+    float: left;
+    padding-left: 340px;
+    padding-top: 50px;
+    line-height: 30px;
+}
+.Contacts h4{
+    padding-bottom: 70px;
+}
+.MessageContainer{
+    padding-top: 150px;
+    text-transform: uppercase;
+    line-height: 50px;
+    font-size: 20px;
+    font-weight: bolder;
+}
+#Name{
+    height: 36px;
+    width: 352px;
+    background-color: rgba(255,255,255,0.7);
+    font-weight: bolder;
+}
+#Mail{
+    height: 36px;
+    width: 352px;
+    background-color: rgba(255,255,255,0.7);
+    font-weight: bolder;
+}
+#Message{
+    height:95px;
+    width: 710px;
+    background-color: rgba(255,255,255,0.7);
+    font-weight: bolder;
+}
+.Copyright{
+    height: 92px;
+    background-color: #354051;
+    padding-top: 46px;
+    text-align: center;
+    color: #fff;
+    font-weight: bolder;
+    font-size: 16px;
 }

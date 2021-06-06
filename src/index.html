@@ -34,56 +34,77 @@
     </div>  
    
 <!--Второй экран-->
-        <div class="AboutMe">
+        
         <div class="NameOfPage">Обо мне</div>
-        <div class="Photo1"><img src="img/HDOyzknHqBhOWju-128x128-noPad.jpg" alt=""></div>
-        <div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. <br>Vitae iusto fugit quibusdam adipisci suscipit nesciunt, nihil ut error fugiat dicta?</div>
-        <div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. <br>Vitae iusto fugit quibusdam adipisci suscipit nesciunt, nihil ut error fugiat dicta?</div>
+        <div class="AboutMe">
+        <div class="Photo1"><img src="img/HDOyzknHqBhOWju-128x128-noPad.jpg" alt="" width="206" height="206"></div>
+        <div id="AboutMe_Text1">Lorem ipsum dolor sit amet, consectetur adipisicing elit. <br>Vitae iusto fugit quibusdam adipisci suscipit nesciunt, nihil ut error fugiat dicta?</div>
+        <div id = "AboutMe_Text2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. <br>Vitae iusto fugit quibusdam adipisci suscipit nesciunt, nihil ut error fugiat dicta?
+        </div>
+        <input type="submit" value="Скачать резюме">
         </div>
        
 <!--Третий экран-->
         <div class="WhatICan">
-        <div class="NameOfPage">Что я умею</div>
-                <div><h4>Веб дизайн</h4> 
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis quae cumque, libero consequatur at, dolorum.</p></div>
-                <div><h4>Разработка</h4> 
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis quae cumque, libero consequatur at, dolorum.</p></div>
-                <div><h4>CEO-оптимизация</h4> 
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis quae cumque, libero consequatur at, dolorum.</p></div>
-                <div><h4>Маркетинг</h4> 
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis quae cumque, libero consequatur at, dolorum.</p></div>
+               <div class="NameOfPage">Что я умею</div>
+                <div><ul>
+                <li>
+                <img src="img/comp.png" alt="">
+                <h4>Веб дизайн</h4> 
+                Lorem ipsum dolor sit amet, consectetur <br> adipisicing elit. Omnis quae cumque, <br>libero consequatur at, dolorum.</li>
+                <li>
+                <img src="img/znak.png" alt="">
+                <h4>Разработка</h4> 
+                Lorem ipsum dolor sit amet,  consectetur <br> adipisicing elit. Omnis quae cumque, <br>libero consequatur at, dolorum.</li>
+                <li>
+                <img src="img/rocket.png" alt="">
+                <h4>CEO-оптимизация</h4> 
+                Lorem ipsum dolor sit amet, consectetur <br>adipisicing elit. Omnis quae cumque, <br>libero consequatur at, dolorum</li>
+                <li>
+                <img src="img/gramm.png" alt="">
+                <h4>Маркетинг</h4> 
+                Lorem ipsum dolor sit amet, consectetur <br>adipisicing elit. Omnis quae cumque, <br>libero consequatur at, dolorum.</li>
+                </ul>
+                </div>
         </div>
 <!--Четвертый экран-->
-       <div class="Cases">
         <div class="NameOfPage">Кейсы</div>
-        <div class="ContentOfPage">
+        <div class="Cases">
+        <div class="ContentOfCases1">
             <div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis, expedita.</div>
             <img src="img/asdaweq.png" alt="">
-        </div>    
-        <div>Client: <br>Какая-то компания<br>Website <br> http://www.somedomain.com</div>
-        <input type="submit"value="Visit live site">
-        <div>Название проекта</div> 
-        <div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias hic alias est aspernatur saepe nostrum non, eos laudantium minima, recusandae rem ea maiores impedit perspiciatis adipisci quo voluptate explicabo ducimus voluptates repellendus dicta. Nemo, numquam ipsa, reprehenderit quo vel maxime.</div>
         </div>
-           
+        <div class="ContentOfCases2">
+          <ul>
+            <li><div><h4>CLIENT:</h4> <br><h4></h4>Какая-то компания<br>
+             <h4>WEBSITE:</h4> <br> http://www.somedomain.com</div>
+            <input type="submit"value="VISIT LIVE SITE"></li>
+             <div><h4>Название проекта:</h4></div> 
+            <li><div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias hic alias est aspernatur saepe nostrum<br> non, eos laudantium minima, recusandae rem ea maiores impedit perspiciatis adipisci quo voluptate explicabo ducimus<br>  voluptates repellendus dicta. Nemo, numquam ipsa, reprehenderit quo vel maxime.</div></li>
+          </ul>   
+        </div>
+        </div>    
 <!--Пятый экран-->
-        <div class="CostCalculation">
         <div class="NameOfPage">Расчет стоимости</div>
+        <div class="CostCalculation">
         <form action="">
-        <div>Тип сайта</div>
-        <select name="TypeOfSyte" id="">
+        <div>ТИП САЙТА</div>
+        <select class="CostCalculation_Choose" id="">
+            <option value="Opt0">Выберите пункт...</option>
             <option value="Opt1">1</option>
             <option value="Opt2">2</option>
             <option value="Opt3">3</option>
             </select>
-        <div>Дизайн</div>
-        <select name="Design" id="">
+        <div>ДИЗАЙН</div>
+        <select class="CostCalculation_Choose"  id="">
+            <option value="Opt0">Выберите пункт...</option>
             <option value="Opt1">1</option>
             <option value="Opt2">2</option>
             <option value="Opt3">3</option>
             </select>
-        <div>Адаптивность</div>
-        <select name="Adaptability" id="">
+        <div>АДАПТИВНОСТЬ</div>
+        <select class="CostCalculation_Choose" id="">
+            <option value="Opt0">Выберите пункт...</option>
             <option value="Opt1">1</option>
             <option value="Opt2">2</option>
             <option value="Opt3">3</option>
@@ -95,49 +116,57 @@
 <!--Шестой экран-->
         <div class="Statistic">
         <div class="NameOfPage">Немного статистики</div>
-                <div><img src="img/png-clipart-black-white-emoticon-smiley-computer-icons-emoji-black-and-white-cdr-face.png" alt="" width="50" height="50">
+               <ul>
+                <li><div><img src="img/smile.png" alt="" >
                 <p>999</p>
-                <p>Счастливых клиентов</p></div>
-                <div><img src="img/png-clipart-black-white-emoticon-smiley-computer-icons-emoji-black-and-white-cdr-face.png" alt="" width="50" height="50">
+                Счастливых клиентов</div></li>
+                 <li><div><img src="img/skobki.png" alt="" >
                 <p>999</p>
-                <p>Часов работы</p></div>
-                <div><img src="img/png-clipart-black-white-emoticon-smiley-computer-icons-emoji-black-and-white-cdr-face.png" alt="" width="50" height="50">
+                Часов работы</div></li>
+                 <li><div><img src="img/gal.png" alt="" >
                 <p>999</p>
-                <p>Проектов завершено</p></div>
-                <div><img src="img/png-clipart-black-white-emoticon-smiley-computer-icons-emoji-black-and-white-cdr-face.png" alt="" width="50" height="50"><p>999</p>
-                <p>Наград получено</p></div>
+                Проектов завершено</div></li>
+                 <li><div><img src="img/cub.png" alt="" >
+                <p>999</p>
+                Наград получено</div></li>
+              </ul>
         </div>
             
 <!--Седьмой экран-->
+  <div class="NameOfPage">Отзывы</div>
    <div class="Feedback">
-    <div class="NameOfPage">Отзывы</div>
     <img src="img/HDOyzknHqBhOWju-128x128-noPad.jpg" alt="">
     <div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias error eos quas, et in itaque at nostrum sunt ad perspiciatis!</div>
-    <div>Михаил, Ген.директор ПАО Газпром</div>
+    <p>Михаил, Ген.директор ПАО Газпром</p>
     </div>
 <!--Восьмой экран-->
    <div class="Contacts">
-    <div class="NameOfPage">Мои контакты</div>
+    <div class="NameOfPage"><h4>Мои контакты</h4></div>
     <div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error explicabo nostrum ducimus placeat eligendi soluta mollitia incidunt molestiae distinctio fugit.</div>
-             <div><img src="img/png-clipart-black-white-emoticon-smiley-computer-icons-emoji-black-and-white-cdr-face.png" alt="" width="50" height="50">
+            <ul>
+             <li><div><img src="img/geo.png" alt="">
              <p>Город, улица</p>
              </div>
-             <div><img src="img/png-clipart-black-white-emoticon-smiley-computer-icons-emoji-black-and-white-cdr-face.png" alt="" width="50" height="50">
+             </li>
+             <li><div><img src="img/mail.png" alt="">
              <p>kokoc@mail.ru</p>
              </div>
-             <div><img src="img/png-clipart-black-white-emoticon-smiley-computer-icons-emoji-black-and-white-cdr-face.png" alt="" width="50" height="50">
+             </li>
+             <li><div><img src="img/phone.png" alt="">
              <p>+7 999 999-99-99</p>
              </div>
-       
-    <div>Оставьте мне сообщение</div>
-    <form action="">
-        <input type="text" placeholder="Имя">
-        <input type="text" placeholder="E-mail">
-        <input type="text" placeholder="Сообщение">
+             </li>
+            </ul>
+    
+    <form class="MessageContainer" action="">
+        <div>Оставьте мне сообщение</div>
+        <input id="Name" type="text" placeholder="Имя">
+        <input id="Mail" type="text" placeholder="E-mail"><br>
+        <input id="Message" type="text" placeholder="Сообщение">
     </form>
     </div>
-    <footer>
-        <div>Copyright</div>
+    <footer class="Copyright">
+        <div>Copyright©2021 Kokoc. Design by Web</div>
     </footer>
     
 </body>
