@@ -118,6 +118,9 @@ nav{
 .Cases{
     height: 100%;
 }
+.Cases img{
+    padding-bottom: 50px;
+}
 .ContentOfCases1{
     text-align: center;
     padding-top: 72px;
@@ -133,7 +136,7 @@ nav{
 .ContentOfCases2 h4{
     font-weight: bold;
     font-size: 19px;
-    line-height: 20px;
+    padding-top: 15px;
 }
 .Cases li{
     float: left;
@@ -143,12 +146,13 @@ nav{
     height: 45px;
     border: 2px solid #62aca6;
     border-radius: 3%;
-    padding: 18px 43px;
+    padding: 13px 43px;
     background-color: #62aca6;
     color: #fff;
     text-transform: bold;
     font-size: 15px;
     margin-top: 26px;
+    
     
 }
 .CostCalculation{
@@ -179,7 +183,7 @@ nav{
     padding-bottom: 30px;
 }
 .Statistic li{
-    padding-left: 12%;
+    padding-left: 10%;
     padding-top: 131px;
     float: left;
     margin-right:40px;
@@ -213,7 +217,7 @@ nav{
 .Contacts div{
     color: white;
 }
-.Contacts li{
+.Cont li{
     float: left;
     padding-left: 340px;
     padding-top: 50px;
@@ -234,18 +238,30 @@ nav{
     width: 352px;
     background-color: rgba(255,255,255,0.7);
     font-weight: bolder;
+    padding-left: 10px;
 }
 #Mail{
     height: 36px;
     width: 352px;
     background-color: rgba(255,255,255,0.7);
     font-weight: bolder;
+    padding-left: 10px
 }
 #Message{
     height:95px;
     width: 710px;
     background-color: rgba(255,255,255,0.7);
     font-weight: bolder;
+    padding-left: 10px;
+    padding-bottom: 55px;
+}
+.Social{
+    padding-left: 495px;
+}
+.Social li{
+    padding-left: 70px;
+    float: left;
+    padding-top: 170px;
 }
 .Copyright{
     height: 92px;
