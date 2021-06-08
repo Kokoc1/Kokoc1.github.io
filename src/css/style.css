@@ -69,7 +69,7 @@ nav{
     padding-top: 100px;
 }
 .NameOfPage{
-    font-weight: bolder;
+    font-weight: bold;
     text-align: center;
     color: #263244;
     font-size: 30px;
@@ -159,7 +159,7 @@ nav{
     padding-left: 25%;
     height: 100%;
     margin-top: 60px;
-    font-weight: bolder;
+    font-weight: bold;
     font-size: 21px;
     line-height: 40px;
     
@@ -173,7 +173,7 @@ nav{
     background-color: #eeeeee;
     border: 2px solid #fff;
     border-radius: 2%;
-    font-weight: bolder;
+    font-weight: bold;
 }
 .Statistic{
     background: url(../img/bg3.png) right/cover no-repeat;
@@ -192,7 +192,7 @@ nav{
     line-height: 33px;
     text-transform: uppercase;
     font-size: 15px;
-    font-weight: bolder;
+    font-weight: bold;
     color: #323e4f;
 }
 .Statistic p{
@@ -231,29 +231,39 @@ nav{
     text-transform: uppercase;
     line-height: 50px;
     font-size: 20px;
-    font-weight: bolder;
+    font-weight: bold;
 }
 #Name{
     height: 36px;
     width: 352px;
     background-color: rgba(255,255,255,0.7);
-    font-weight: bolder;
+    font-weight: bold;
     padding-left: 10px;
 }
 #Mail{
     height: 36px;
     width: 352px;
     background-color: rgba(255,255,255,0.7);
-    font-weight: bolder;
+    font-weight: bold;
     padding-left: 10px
 }
 #Message{
     height:95px;
     width: 710px;
     background-color: rgba(255,255,255,0.7);
-    font-weight: bolder;
+    font-weight: bold;
     padding-left: 10px;
     padding-bottom: 55px;
+}
+#Send{
+    background-color: rgba(255,255,255,0);
+    border: 3px solid #fff;
+    border-radius: 5%;
+    color: #fff;
+    padding: 11px 16px;
+    margin-top: 30px;
+    font-size: 16px;
+    font-weight: bold;
 }
 .Social{
     padding-left: 495px;
@@ -261,7 +271,7 @@ nav{
 .Social li{
     padding-left: 70px;
     float: left;
-    padding-top: 170px;
+    padding-top: 90px;
 }
 .Copyright{
     height: 92px;
